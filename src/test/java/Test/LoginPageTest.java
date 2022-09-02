@@ -40,8 +40,11 @@ public class LoginPageTest extends BaseTest {
 	public void signupLinkTest() {
 		ZerodhaLoginPage zerodhaloginpage =new ZerodhaLoginPage(driver);
 		zerodhaloginpage.clickOnSignUp();
-		
-		
+	}	
+	@Test
+	public void Demo () {
+	System.out.println("adding new test Demo");	
+	}
 		
 		
 		
@@ -53,4 +56,4 @@ public class LoginPageTest extends BaseTest {
 		
 	}
 
-}
+
